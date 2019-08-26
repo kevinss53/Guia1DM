@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calculadora">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/txt1calc"
+        android:text=""
+        android:layout_marginTop="20sp"
+
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_marginTop="20sp"
+        android:columnCount="4"
+
+        >
+
+        <Button
+            android:id="@+id/btnac"
+            android:layout_marginLeft="30sp"
+            android:onClick="onClick"
+            android:text="AC" />
+
+        <Button
+            android:id="@+id/btndel"
+            android:onClick="onClick"
+            android:text="DEL" />
+
+        <Button
+            android:id="@+id/btnmas"
+            android:onClick="onClick"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btnmenos"
+            android:onClick="onClick"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_marginLeft="30sp"
+            android:onClick="onClick"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:onClick="onClick"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:onClick="onClick"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/btnmulti"
+            android:onClick="onClick"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_marginLeft="30sp"
+            android:onClick="onClick"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:onClick="onClick"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:onClick="onClick"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btndivision"
+            android:onClick="onClick"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_marginLeft="30sp"
+            android:onClick="onClick"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:onClick="onClick"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:onClick="onClick"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btnigual"
+            android:onClick="onClick"
+            android:text="=" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:onClick="onClick"
+        android:text="0" />
+
+</LinearLayout>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/txt1calc"
+     android:text="MI PRIMERA GUIA"
+     android:textAlignment="center"
+     android:textSize="20sp"
+     android:layout_marginTop="05sp"
+
+     />
+
+    <Button
+        android:id="@+id/btncalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:onClick="onClick"
+        android:text="CALCULADORA"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:onClick="onClick"
+        android:text="FORMULARIO LOGIN"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btndatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:onClick="onClick"
+        android:text="MIS DATOS"
+        android:textSize="20sp" />
+
+</LinearLayout>
